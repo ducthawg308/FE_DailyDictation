@@ -1,9 +1,8 @@
-import CourseList from "../components/course";
-
+import Filter from "../components/filter";
 
 const ListenPage = () => {
     return (
-        <CourseList/>
+        <Filter/>
     );
 }
 
