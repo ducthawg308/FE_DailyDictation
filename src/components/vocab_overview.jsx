@@ -512,7 +512,7 @@ const VocabOverView = () => {
                 </div>
                 </div>
             </div>
-            <div className="flex flex-col sm:flex-row sm:bg-blue-light-3 rounded-3xl gap-2 sm:gap-4 lg:gap-8 sm:pl-4 sm:py-4 lg:py-8 lg:pl-8 ">
+            <div className="flex flex-col overflow-hidden sm:flex-row sm:bg-blue-light-3 rounded-3xl gap-2 sm:gap-4 lg:gap-8 sm:pl-4 sm:py-4 lg:py-8 lg:pl-8 bg-gray-100">
                 <div className="hidden sm:flex w-1/2 md:w-2/5 mb-6 hover:no-underline flex-col">
                 <h4 className="text-base sm:text-lg lg:text-2xl font-text-bold sm:font-text-semibold text-title mb-4 flex flex-col sm:flex-row gap-3 sm:items-center">
                     Top User-Created Wordlists
@@ -602,7 +602,7 @@ const VocabOverView = () => {
                 </a>
                 <div className='swiper swiper-initialized swiper-horizontal swiper-pointer-events w-full [&_.swiper-button-next]:after:text-2xl [&_.swiper-button-next]:after:text-title [&_.swiper-button-next]:after:content-["next"] [&_.swiper-button-prev]:after:text-2xl rtl:[&_.swiper-button-prev]:!left-[98%] rtl:[&_.swiper-button-next]:!right-[98%] [&_.swiper-button-prev]:after:text-title [&_.swiper-button-prev]:after:content-["prev"] swiper-backface-hidden'>
                 <div
-                    className="swiper-wrapper"
+                    className="swiper-wrapper flex" 
                     style={{ transform: "translate3d(0px, 0px, 0px)" }}
                 >
                     <div
@@ -610,10 +610,10 @@ const VocabOverView = () => {
                     style={{ marginRight: 24 }}
                     >
                     <a
-                        className=" border-[1.5px] border-solid border-blue-light-1 sm:border-none rounded-3xl hover:shadow-1 cursor-pointer transition-shadow duration-200 ease-in-out relative bg-background p-4 sm:p-6 flex-col flex w-[160px] sm:w-[180px] lg:w-[214px] min-w-[160px] sm:min-w-[180px] lg:min-w-[214px]"
+                        className=" border-[1.5px] border-solid border-blue-light-1 sm:border-none rounded-3xl hover:shadow-1 cursor-pointer transition-shadow duration-200 ease-in-out relative bg- p-4 sm:p-6 flex-col flex w-[160px] sm:w-[180px] lg:w-[214px] min-w-[160px] sm:min-w-[180px] lg:min-w-[214px]"
                         href="/en/user/category/study?id=284986&user_id=2089826491.8795"
                     >
-                        <div className="bg-green-light-2 text-green dark:text-green-dark rounded-tr-3xl flex gap-1 rounded-bl-2xl px-3 py-[6px] absolute top-0 right-0 ">
+                        <div className="bg-green-100 text-green dark:text-green-dark rounded-tr-3xl flex gap-1 rounded-bl-2xl px-3 py-[6px] absolute top-0 right-0 ">
                         {" "}
                         <svg
                             width={24}
@@ -786,10 +786,10 @@ const VocabOverView = () => {
                     style={{ marginRight: 24 }}
                     >
                     <a
-                        className=" border-[1.5px] border-solid border-blue-light-1 sm:border-none rounded-3xl hover:shadow-1 cursor-pointer transition-shadow duration-200 ease-in-out relative bg-background p-4 sm:p-6 flex-col flex w-[160px] sm:w-[180px] lg:w-[214px] min-w-[160px] sm:min-w-[180px] lg:min-w-[214px]"
+                        className=" border-[1.5px] border-solid border-blue-light-1 sm:border-none rounded-3xl hover:shadow-1 cursor-pointer transition-shadow duration-200 ease-in-out relative bg- p-4 sm:p-6 flex-col flex w-[160px] sm:w-[180px] lg:w-[214px] min-w-[160px] sm:min-w-[180px] lg:min-w-[214px]"
                         href="/en/user/category/study?id=284220&user_id=2089826491.8795"
                     >
-                        <div className="bg-green-light-2 text-green dark:text-green-dark rounded-tr-3xl flex gap-1 rounded-bl-2xl px-3 py-[6px] absolute top-0 right-0 ">
+                        <div className="bg-green-100 text-green dark:text-green-dark rounded-tr-3xl flex gap-1 rounded-bl-2xl px-3 py-[6px] absolute top-0 right-0 ">
                         {" "}
                         <svg
                             width={24}
@@ -962,10 +962,10 @@ const VocabOverView = () => {
                     style={{ marginRight: 24 }}
                     >
                     <a
-                        className=" border-[1.5px] border-solid border-blue-light-1 sm:border-none rounded-3xl hover:shadow-1 cursor-pointer transition-shadow duration-200 ease-in-out relative bg-background p-4 sm:p-6 flex-col flex w-[160px] sm:w-[180px] lg:w-[214px] min-w-[160px] sm:min-w-[180px] lg:min-w-[214px]"
+                        className=" border-[1.5px] border-solid border-blue-light-1 sm:border-none rounded-3xl hover:shadow-1 cursor-pointer transition-shadow duration-200 ease-in-out relative bg- p-4 sm:p-6 flex-col flex w-[160px] sm:w-[180px] lg:w-[214px] min-w-[160px] sm:min-w-[180px] lg:min-w-[214px]"
                         href="/en/user/category/study?id=288206&user_id=2089826491.8795"
                     >
-                        <div className="bg-green-light-2 text-green dark:text-green-dark rounded-tr-3xl flex gap-1 rounded-bl-2xl px-3 py-[6px] absolute top-0 right-0 ">
+                        <div className="bg-green-100 text-green dark:text-green-dark rounded-tr-3xl flex gap-1 rounded-bl-2xl px-3 py-[6px] absolute top-0 right-0 ">
                         {" "}
                         <svg
                             width={24}
@@ -1138,10 +1138,10 @@ const VocabOverView = () => {
                     style={{ marginRight: 24 }}
                     >
                     <a
-                        className=" border-[1.5px] border-solid border-blue-light-1 sm:border-none rounded-3xl hover:shadow-1 cursor-pointer transition-shadow duration-200 ease-in-out relative bg-background p-4 sm:p-6 flex-col flex w-[160px] sm:w-[180px] lg:w-[214px] min-w-[160px] sm:min-w-[180px] lg:min-w-[214px]"
+                        className=" border-[1.5px] border-solid border-blue-light-1 sm:border-none rounded-3xl hover:shadow-1 cursor-pointer transition-shadow duration-200 ease-in-out relative bg- p-4 sm:p-6 flex-col flex w-[160px] sm:w-[180px] lg:w-[214px] min-w-[160px] sm:min-w-[180px] lg:min-w-[214px]"
                         href="/en/user/category/study?id=284990&user_id=4054546165.9837"
                     >
-                        <div className="bg-green-light-2 text-green dark:text-green-dark rounded-tr-3xl flex gap-1 rounded-bl-2xl px-3 py-[6px] absolute top-0 right-0 ">
+                        <div className="bg-green-100 text-green dark:text-green-dark rounded-tr-3xl flex gap-1 rounded-bl-2xl px-3 py-[6px] absolute top-0 right-0 ">
                         {" "}
                         <svg
                             width={24}
@@ -1314,10 +1314,10 @@ const VocabOverView = () => {
                     style={{ marginRight: 24 }}
                     >
                     <a
-                        className=" border-[1.5px] border-solid border-blue-light-1 sm:border-none rounded-3xl hover:shadow-1 cursor-pointer transition-shadow duration-200 ease-in-out relative bg-background p-4 sm:p-6 flex-col flex w-[160px] sm:w-[180px] lg:w-[214px] min-w-[160px] sm:min-w-[180px] lg:min-w-[214px]"
+                        className=" border-[1.5px] border-solid border-blue-light-1 sm:border-none rounded-3xl hover:shadow-1 cursor-pointer transition-shadow duration-200 ease-in-out relative bg- p-4 sm:p-6 flex-col flex w-[160px] sm:w-[180px] lg:w-[214px] min-w-[160px] sm:min-w-[180px] lg:min-w-[214px]"
                         href="/en/user/category/study?id=293950&user_id=2089826491.8795"
                     >
-                        <div className="bg-green-light-2 text-green dark:text-green-dark rounded-tr-3xl flex gap-1 rounded-bl-2xl px-3 py-[6px] absolute top-0 right-0 ">
+                        <div className="bg-green-100 text-green dark:text-green-dark rounded-tr-3xl flex gap-1 rounded-bl-2xl px-3 py-[6px] absolute top-0 right-0 ">
                         {" "}
                         <svg
                             width={24}
@@ -1490,10 +1490,10 @@ const VocabOverView = () => {
                     style={{ marginRight: 24 }}
                     >
                     <a
-                        className=" border-[1.5px] border-solid border-blue-light-1 sm:border-none rounded-3xl hover:shadow-1 cursor-pointer transition-shadow duration-200 ease-in-out relative bg-background p-4 sm:p-6 flex-col flex w-[160px] sm:w-[180px] lg:w-[214px] min-w-[160px] sm:min-w-[180px] lg:min-w-[214px]"
+                        className=" border-[1.5px] border-solid border-blue-light-1 sm:border-none rounded-3xl hover:shadow-1 cursor-pointer transition-shadow duration-200 ease-in-out relative bg- p-4 sm:p-6 flex-col flex w-[160px] sm:w-[180px] lg:w-[214px] min-w-[160px] sm:min-w-[180px] lg:min-w-[214px]"
                         href="/en/user/category/study?id=290741&user_id=2089826491.8795"
                     >
-                        <div className="bg-green-light-2 text-green dark:text-green-dark rounded-tr-3xl flex gap-1 rounded-bl-2xl px-3 py-[6px] absolute top-0 right-0 ">
+                        <div className="bg-green-100 text-green dark:text-green-dark rounded-tr-3xl flex gap-1 rounded-bl-2xl px-3 py-[6px] absolute top-0 right-0 ">
                         {" "}
                         <svg
                             width={24}
@@ -1666,10 +1666,10 @@ const VocabOverView = () => {
                     style={{ marginRight: 24 }}
                     >
                     <a
-                        className=" border-[1.5px] border-solid border-blue-light-1 sm:border-none rounded-3xl hover:shadow-1 cursor-pointer transition-shadow duration-200 ease-in-out relative bg-background p-4 sm:p-6 flex-col flex w-[160px] sm:w-[180px] lg:w-[214px] min-w-[160px] sm:min-w-[180px] lg:min-w-[214px]"
+                        className=" border-[1.5px] border-solid border-blue-light-1 sm:border-none rounded-3xl hover:shadow-1 cursor-pointer transition-shadow duration-200 ease-in-out relative bg- p-4 sm:p-6 flex-col flex w-[160px] sm:w-[180px] lg:w-[214px] min-w-[160px] sm:min-w-[180px] lg:min-w-[214px]"
                         href="/en/user/category/study?id=287532&user_id=4054546165.9837"
                     >
-                        <div className="bg-green-light-2 text-green dark:text-green-dark rounded-tr-3xl flex gap-1 rounded-bl-2xl px-3 py-[6px] absolute top-0 right-0 ">
+                        <div className="bg-green-100 text-green dark:text-green-dark rounded-tr-3xl flex gap-1 rounded-bl-2xl px-3 py-[6px] absolute top-0 right-0 ">
                         {" "}
                         <svg
                             width={24}
@@ -1842,10 +1842,10 @@ const VocabOverView = () => {
                     style={{ marginRight: 24 }}
                     >
                     <a
-                        className=" border-[1.5px] border-solid border-blue-light-1 sm:border-none rounded-3xl hover:shadow-1 cursor-pointer transition-shadow duration-200 ease-in-out relative bg-background p-4 sm:p-6 flex-col flex w-[160px] sm:w-[180px] lg:w-[214px] min-w-[160px] sm:min-w-[180px] lg:min-w-[214px]"
+                        className=" border-[1.5px] border-solid border-blue-light-1 sm:border-none rounded-3xl hover:shadow-1 cursor-pointer transition-shadow duration-200 ease-in-out relative bg- p-4 sm:p-6 flex-col flex w-[160px] sm:w-[180px] lg:w-[214px] min-w-[160px] sm:min-w-[180px] lg:min-w-[214px]"
                         href="/en/user/category/study?id=290674&user_id=4054546165.9837"
                     >
-                        <div className="bg-green-light-2 text-green dark:text-green-dark rounded-tr-3xl flex gap-1 rounded-bl-2xl px-3 py-[6px] absolute top-0 right-0 ">
+                        <div className="bg-green-100 text-green dark:text-green-dark rounded-tr-3xl flex gap-1 rounded-bl-2xl px-3 py-[6px] absolute top-0 right-0 ">
                         {" "}
                         <svg
                             width={24}
@@ -2018,10 +2018,10 @@ const VocabOverView = () => {
                     style={{ marginRight: 24 }}
                     >
                     <a
-                        className=" border-[1.5px] border-solid border-blue-light-1 sm:border-none rounded-3xl hover:shadow-1 cursor-pointer transition-shadow duration-200 ease-in-out relative bg-background p-4 sm:p-6 flex-col flex w-[160px] sm:w-[180px] lg:w-[214px] min-w-[160px] sm:min-w-[180px] lg:min-w-[214px]"
+                        className=" border-[1.5px] border-solid border-blue-light-1 sm:border-none rounded-3xl hover:shadow-1 cursor-pointer transition-shadow duration-200 ease-in-out relative bg- p-4 sm:p-6 flex-col flex w-[160px] sm:w-[180px] lg:w-[214px] min-w-[160px] sm:min-w-[180px] lg:min-w-[214px]"
                         href="/en/user/category/study?id=217231&user_id=3809867391.7991"
                     >
-                        <div className="bg-green-light-2 text-green dark:text-green-dark rounded-tr-3xl flex gap-1 rounded-bl-2xl px-3 py-[6px] absolute top-0 right-0 ">
+                        <div className="bg-green-100 text-green dark:text-green-dark rounded-tr-3xl flex gap-1 rounded-bl-2xl px-3 py-[6px] absolute top-0 right-0 ">
                         {" "}
                         <svg
                             width={24}
@@ -2194,10 +2194,10 @@ const VocabOverView = () => {
                     style={{ marginRight: 24 }}
                     >
                     <a
-                        className=" border-[1.5px] border-solid border-blue-light-1 sm:border-none rounded-3xl hover:shadow-1 cursor-pointer transition-shadow duration-200 ease-in-out relative bg-background p-4 sm:p-6 flex-col flex w-[160px] sm:w-[180px] lg:w-[214px] min-w-[160px] sm:min-w-[180px] lg:min-w-[214px]"
+                        className=" border-[1.5px] border-solid border-blue-light-1 sm:border-none rounded-3xl hover:shadow-1 cursor-pointer transition-shadow duration-200 ease-in-out relative bg- p-4 sm:p-6 flex-col flex w-[160px] sm:w-[180px] lg:w-[214px] min-w-[160px] sm:min-w-[180px] lg:min-w-[214px]"
                         href="/en/user/category/study?id=287873&user_id=162037289.6847"
                     >
-                        <div className="bg-green-light-2 text-green dark:text-green-dark rounded-tr-3xl flex gap-1 rounded-bl-2xl px-3 py-[6px] absolute top-0 right-0 ">
+                        <div className="bg-green-100 text-green dark:text-green-dark rounded-tr-3xl flex gap-1 rounded-bl-2xl px-3 py-[6px] absolute top-0 right-0 ">
                         {" "}
                         <svg
                             width={24}
@@ -2366,8 +2366,8 @@ const VocabOverView = () => {
                     </a>
                     </div>
                 </div>
-                <div className="swiper-button-prev swiper-button-disabled" />
-                <div className="swiper-button-next" />
+                {/* <div className="swiper-button-prev swiper-button-disabled" />
+                <div className="swiper-button-next" /> */}
                 </div>
             </div>
         </div>
